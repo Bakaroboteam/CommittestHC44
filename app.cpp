@@ -19,9 +19,9 @@ void main_task(intptr_t unused) {
   Clock clock; // <4>
 
 #ifndef MAKE_RASPIKE
-  const int8_t pwm = 30;
+  const int8_t pwm = 15;
 #else
-  const int8_t pwm = 60;
+  const int8_t pwm = 30;
 #endif
 
   const uint32_t duration = 2000*1000; 
